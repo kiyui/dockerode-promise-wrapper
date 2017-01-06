@@ -1,0 +1,31 @@
+{
+  "name": "dockerode-promise-wrapper",
+  "version": "1.0.0",
+  "description": "Generic wrapper for dockerode using ES6 wrappers",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimurKiyivinski/dockerode-promise-wrapper.git"
+  },
+  "keywords": [
+    "dockerode",
+    "docker",
+    "promise",
+    "es6"
+  ],
+  "author": "Timur Kiyivinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimurKiyivinski/dockerode-promise-wrapper/issues"
+  },
+  "homepage": "https://github.com/TimurKiyivinski/dockerode-promise-wrapper#readme",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "dockerode": "^2.3.1"
+  }
+}
