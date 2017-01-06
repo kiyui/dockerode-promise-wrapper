@@ -9,7 +9,7 @@ The API is 100% the same as `dockerode`, minus the `(err, data)` callback which 
 
 ## example
 ```
-const DockerPromise = require('./index')
+const DockerPromise = require('dockerode-promise-wrapper')
 
 const docker = new DockerPromise({
   socketPath: '/var/run/docker.sock'
@@ -31,3 +31,6 @@ docker.listImages()
     console.error(err)
   })
 ```
+
+## notes
+This wrapper has not been 100% tested. Please report bugs and issues, or send a PR if an issue is found.
