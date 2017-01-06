@@ -6,6 +6,7 @@ npm install --save dockerode-promise-wrapper
 
 ## api
 The API is 100% the same as `dockerode`, minus the `(err, data)` callback which is handled by `.then(...).catch(...)` using promises instead.
+Objects returned by `get` functions are also wrapped in promises, ie. `getContainer(:id).inspect()` is `[object Promise]`.
 
 ## example
 ```
