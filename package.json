@@ -1,6 +1,6 @@
 {
   "name": "dockerode-promise-wrapper",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Generic wrapper for dockerode using ES6 wrappers",
   "main": "index.js",
   "scripts": {

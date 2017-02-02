@@ -33,5 +33,14 @@ docker.listImages()
   })
 ```
 
+## streaming
+The `modem` from the `docker` instance is available should you wish to stream a process.
+```
+docker.pull('ubuntu:latest')
+  .then(stream => {
+    docker.modem.followProgress(stream, onFinished, onProgress) // View dockerode documentation
+  })
+```
+
 ## notes
 This wrapper has not been 100% tested. Please report bugs and issues, or send a PR if an issue is found.

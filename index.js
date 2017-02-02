@@ -18,6 +18,7 @@ function DockerPromiseObject (object) {
 function DockerPromise (config) {
   // Get dockerode Docker object
   const docker = new Docker(config)
+  this.modem = docker.modem
 
   // Wrap docker instance functions
   getFunctions(docker).map(functionName => {
